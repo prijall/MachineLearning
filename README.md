@@ -62,3 +62,26 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 - Choosing the Right K: Selecting the appropriate K value is essential for the performance of the KNN algorithm. It involves experimentation and might require  cross-validation to determine the K that results in the best performance for your specific dataset. A small K value (e.g., 3 or 5) may capture noise, while a large K value may lead to oversmoothed predictions.
 
 ![KNN algo](KNN.png)
+
+
+# Day 4
+
+  Learning about Underfitting , Overfitting and generalized model is very impoertant in Machine Learning. 
+
+## Overfitting 
+   When the best fit line completely fitted through all training data, then the modwl is said to be overfitted. In this case, model is
+   - Low Biased
+   - High variance
+
+## Underfitting
+   When the best fit line is distant from the training datasets then the model is said to be Underfitted. In this case, model is
+   - High Biased
+   - Can be low variance or high variance
+
+## Generalized model
+   When the best fit line is accurately/precisely fitted with training datasets then the model is considered to be Generalized. In this case, model is
+   - Low Biased
+   - Low variance.
+
+   **Note:** Biasness is generally used for model with training dataset and Variance is used for model with testing dataset. 
+
