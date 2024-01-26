@@ -85,3 +85,19 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 
    **Note:** Biasness is generally used for model with training dataset and Variance is used for model with testing dataset. 
 
+
+# Day 5
+
+  Today, I learnt the concept of Confusion matrix and accuracy performance parameter in Machine Learning Algorithm. It is one of the most used performance metrics in classification. 
+
+## Confusion Matrix:
+   It a table that shows the number of True Positive i.e. (1,1), True Negative i.e. (0,0), False Positive i.e. (1,0) and False Negative i.e. (0,1).Our aim is to reduce False Positive and False Negative values and increase True Positive and True Negative Values. 
+
+## Accuracy:
+   It measures the overall correctness of the model. The main disadvantage of accuracy as performance parameter iit doesn't work well with imbalance datasets.
+
+   - Formula to calculate accuracy is:
+      (TP + TN)/(TP + TN + FP + FN)
+
+
+**Note**: In coordinate (x,y) used above, the value of x represents predicted values whereas the value of y represents actual values of the datasets.
