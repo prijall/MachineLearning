@@ -66,7 +66,7 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 
 # Day 4
 
-  Learning about Underfitting , Overfitting and generalized model is very impoertant in Machine Learning. 
+  Learning about Underfitting , Overfitting and generalized model is very important in Machine Learning. 
 
 ## Overfitting 
    When the best fit line completely fitted through all training data, then the modwl is said to be overfitted. In this case, model is
@@ -101,3 +101,28 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 
 
 **Note**: In coordinate (x,y) used above, the value of x represents predicted values whereas the value of y represents actual values of the datasets.
+
+
+# Day 6
+  After learning about confusion matrix yesterday, Today I learnt the concept of precision, recall and F1 score performance parameter in binary classification.
+
+## Precision
+   It is known as positive predictive value, measures the proportion of true positive prediction out of all positive predictions. It helps to understand the accuracy of positive predictions.
+
+ - **For Example:** Let's take an example of logistic regression model which classifies the email as 'Spam' or 'Not Spam'. Now, if our model predicts a mail as 'Spam' but in real if it not actually 'Spam' then its a blunder, right? So, in this case, we use precision performance parameter to reduce False Positive.
+   
+**Formula of Precision:** (True Positive)/(True Positive + False Positive)
+
+## Recall
+   It measures the proportion of true positive predictions out of all actual positives. It helps to understand how well the model identifies positive instances.
+
+- **For Example:** If a person is suffering from cancer but our model predicts that s/he is not suffering from cancer then thats again a huge blunder. In this case, recall parameter is used to reduce False Negative.
+
+**Formula of Recall:** (True Positive)/(True Positive + False Negative)
+
+## F1 Score
+   The F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall, especially when dealing with imbalanced datasets.
+
+   - **Example:** The prediction of stock market whether it will crash tomorrow or not, we have to use F1 score i.e. both precision and recall as we have to reduce both false positive and false negative. 
+
+   - **Note:** It is one of the kind of F-beta score where both reducing both false positive and fasle negative is important.
