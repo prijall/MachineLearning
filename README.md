@@ -130,3 +130,7 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 # Day 7
 Today, I grasped the basic concept of Support Vector Machines(SVM) which is used to solve the problems of both supervised learning i.e. Regression and Classification. In SVM, we need to find the best fitting hyperplane and along with that hyperplane we need to find parallel vectors which is referred as Marginal plane.
     Today, I learned about SVC only. I got know that while classifying the dataset, we have to make sure to make best fitting hyperplane and their supporting vectors. The most importtant thing here is that the distance between the marginal planes should be more so as to reduce the probability of misclassification.
+
+
+
+   # From today I will be learning feature engineering which will help me to understand Machine Learning algo better and after that i will be again starting machine learning algo Till then stay tuned 
