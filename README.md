@@ -131,6 +131,29 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 Today, I grasped the basic concept of Support Vector Machines(SVM) which is used to solve the problems of both supervised learning i.e. Regression and Classification. In SVM, we need to find the best fitting hyperplane and along with that hyperplane we need to find parallel vectors which is referred as Marginal plane.
     Today, I learned about SVC only. I got know that while classifying the dataset, we have to make sure to make best fitting hyperplane and their supporting vectors. The most importtant thing here is that the distance between the marginal planes should be more so as to reduce the probability of misclassification.
 
+# Day 8
+ 
+ Today, I learnt the concept of Decision Tree in machine learning. It structures decision based on input data, making it suitable for both classification and regression tasks that's why it is called **CART** i.e. Classification and REgression Tree. Its Geometric Intuition is that it converts hyperplane parallel to any of the axes into hyper cuboid in 3D space. 
 
+ ### Entropy
+ Entropy is the measure of Disorder or the measure of purity/impurity or measure of uncertainity of random variables.
 
-   # From today I will be learning feature engineering which will help me to understand Machine Learning algo better and after that i will be again starting machine learning algo Till then stay tuned 
+ - More Knowledge, less Entropy and vice versa
+ - Formula:
+    H(X) = – Σ (pi * log2 pi)
+
+### Entropy vs Probability
+![fig](entropy-in-machine-learning6.webp)
+ 
+ In the system, all the probability is either 0 or 1 then entropy is 0 but if the probability is somewhere in the middle then entropy changes and is no longer 0.
+
+ ### Information Gain
+
+ It is a metric used to train decision trees. Specifically, this metric measures the quality of split.
+
+ - Formula:
+   Information Gain = E(Parent)- {Weighted Average}*E(Children)
+
+ ### Gini Impurity
+  
+  Gini Impurity is a measurement used to build Decision Trees to determine how the features of a dataset should split nodes to form the tree. It is more similary to that of entropy. More precisely, the Gini Impurity of a dataset is a number between 0-0.5, which indicates the likelihood of new, random data being misclassified if it were given a random class label according to the class distribution in the dataset.
