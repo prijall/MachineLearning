@@ -157,3 +157,11 @@ Today, I grasped the basic concept of Support Vector Machines(SVM) which is used
  ### Gini Impurity
   
   Gini Impurity is a measurement used to build Decision Trees to determine how the features of a dataset should split nodes to form the tree. It is more similary to that of entropy. More precisely, the Gini Impurity of a dataset is a number between 0-0.5, which indicates the likelihood of new, random data being misclassified if it were given a random class label according to the class distribution in the dataset.
+
+
+# Day 9
+Today, I did practical implementation for Decision tree using Post Prunning technique. It is the technique in which tree model is built first and then parameters are used later to ensure balanced tree and good accuracy. The test is performed on iris dataset.
+
+- Below is code snippet:
+![photo](DecisionTreeCode_Part1.png)
+![photo](DecisionTree_Part1.png)
