@@ -165,3 +165,9 @@ Today, I did practical implementation for Decision tree using Post Prunning tech
 - Below is code snippet:
 ![photo](DecisionTreeCode_Part1.png)
 ![photo](DecisionTree_Part1.png)
+
+# Day 10
+I did decision tree classification using pre-prunning technique where I gave all possible parameters and used GridSearchCV to find the best params and apply it to get accuracy of 93.33 which is very good and I hope there is less overfiting of the data by the model.
+
+- Below is the code snippet:
+![photo](DecisionTree_part2.png)
