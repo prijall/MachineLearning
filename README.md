@@ -171,3 +171,16 @@ I did decision tree classification using pre-prunning technique where I gave all
 
 - Below is the code snippet:
 ![photo](DecisionTree_part2.png)
+
+# Day 11
+Today, I did Decision Tree  Regression along with its indepth intuition. Since Decision tree is also called CART algorithm, we can use this for regression problem. For classification, we used various hyperparameters like Entropy, Gini Impurity, Information Gain, etc. Similary to that for regressor, we calculate MSE or MAE which is variance in general.
+
+- formula for mse:
+   
+   MSE = (1/n) * Σ(actual – forecast)2
+
+And we do variance reduction and find out the decision node. If the variance reduction is higher than we chose them.
+
+- formula for variance reduction is:
+   
+   Var(Root)- Σwi * Var(child)
