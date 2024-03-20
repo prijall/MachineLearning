@@ -184,3 +184,31 @@ And we do variance reduction and find out the decision node. If the variance red
 - formula for variance reduction is:
    
    Var(Root)- Σwi * Var(child)
+
+# Day 12
+
+Today's topic is **Ensemble Learning** which some way blew out my mind. I got to know about the concept called **Wisdom of the Crowd**. Ensemble learning is based on the same concept. Ensemble learning is a machine learning technique that enhances accuracy and resilience in forecasting by merging predictions from multiple models. It aims to mitigate errors or biases that may exist in individual models by leveraging the collective intelligence of the ensemble. The underlying concept behind ensemble learning is to combine the outputs of diverse models to create a more precise prediction. It works on both:
+ 
+ - Classification: uses majority prediction
+ - Regression: uses mean value of all prediction.
+
+#### Implementation
+Ensemble learning should have different base models for prediction. It can be achieve in 2 main ways:
+
+- Using different ML models,
+- Using same ML models but training them on different datasets
+
+
+#### Types of Ensemble Learning
+- Voting Ensemble
+- Bagging also called (**Boostrapped Aggregration**)
+- Boosting
+- Stacking
+
+### Why Ensemble Learning works?
+
+- For classification
+![photo](Example-of-Combining-Decision-Boundaries-Using-an-Ensemble.webp)
+
+- For Regression
+![photo](Example-of-Combining-Hyperplanes-Using-an-Ensemble.webp)
