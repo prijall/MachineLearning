@@ -208,7 +208,9 @@ Ensemble learning should have different base models for prediction. It can be ac
 ### Why Ensemble Learning works?
 
 - For classification
+
 ![photo](Example-of-Combining-Decision-Boundaries-Using-an-Ensemble.webp)
 
 - For Regression
+
 ![photo](Example-of-Combining-Hyperplanes-Using-an-Ensemble.webp)
