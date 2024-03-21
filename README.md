@@ -214,3 +214,14 @@ Ensemble learning should have different base models for prediction. It can be ac
 - For Regression
 
 ![photo](Example-of-Combining-Hyperplanes-Using-an-Ensemble.webp)
+
+# Day 13
+Today, I did **Voting Ensemble Classification**. In this, I implemented both the techniques of Ensemble that using different algorithms and using same algo with different dataset. I also got to know the concept of **Soft** voting and **Hard** voting in Voting Ensemble.
+
+- **Hard Voting:**In hard voting (also known as majority voting), every individual classifier votes for a class, and the majority wins. In statistical terms, the predicted target label of the ensemble is the mode of the distribution of individually predicted labels.
+
+- **Soft Voting:** every individual classifier provides a probability value that a specific data point belongs to a particular target class. The predictions are weighted by the classifier's importance and summed up. Then the target label with the greatest sum of weighted probabilities wins the vote.
+
+- Below is code snippet:
+
+![alt text](VotingEnsembleClassifier.png)
