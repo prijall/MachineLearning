@@ -17,7 +17,7 @@ Revised the concept of Simple Linear Regression through practical implementation
 
 The k-Nearest Neighbors (KNN) algorithm is a versatile and simple supervised machine learning algorithm used for both classification and regression tasks. It's a non-parametric and instance-based learning method, meaning it doesn't make explicit assumptions about the underlying data distribution and stores the entire training dataset in memory for prediction. Here's how KNN works:
 
-## Basic Idea:
+### Basic Idea:
 
 - Training Phase:
  In the training phase, KNN simply memorizes the entire training dataset. No actual "learning" occurs during this phase, which is why it's considered non-parametric.
@@ -28,7 +28,7 @@ The k-Nearest Neighbors (KNN) algorithm is a versatile and simple supervised mac
 - Voting (Classification) or Averaging (Regression):
  For classification tasks, KNN counts the class labels of the K-nearest neighbors and assigns the majority class as the prediction. For regression tasks, it averages the target values of the K-nearest neighbors to make the prediction.
 
- ## Key Parameters:
+ ### Key Parameters:
 
 - K (Number of Neighbors): 
 The most crucial hyperparameter in KNN is K, which determines how many neighbors are considered when making a prediction. A smaller K value may lead to a noisy prediction, while a larger K value may result in a smoother but potentially biased prediction.
@@ -36,14 +36,14 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 - Distance Metric:
  The choice of distance metric affects how KNN calculates the similarity between data points. Common distance metrics include Euclidean distance, Manhattan distance, and Minkowski distance.
 
-## Advantages of KNN:
+### Advantages of KNN:
 
 - Simple and easy to understand.
 - No model training involved during the training phase.
 - Versatile: Suitable for both classification and regression tasks.
 - Effective when the decision boundary is nonlinear or complex.
 
-## Disadvantages of KNN:
+### Disadvantages of KNN:
 
 - Memory Intensive: 
    KNN stores the entire training dataset, making it memory-intensive for large datasets.
@@ -53,7 +53,7 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
    The choice of K can significantly impact the model's performance. It requires careful tuning.
 - Not Suitable for High-Dimensional Data: KNN's performance tends to degrade as the dimensionality of the data increases (curse of dimensionality).
 
-## Use Cases:
+### Use Cases:
 
 - KNN is often used in recommendation systems, such as recommending products or movies based on user behavior.
 - It's suitable for image classification tasks.
@@ -68,17 +68,17 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 
   Learning about Underfitting , Overfitting and generalized model is very important in Machine Learning. 
 
-## Overfitting 
+### Overfitting 
    When the best fit line completely fitted through all training data, then the modwl is said to be overfitted. In this case, model is
    - Low Biased
    - High variance
 
-## Underfitting
+### Underfitting
    When the best fit line is distant from the training datasets then the model is said to be Underfitted. In this case, model is
    - High Biased
    - Can be low variance or high variance
 
-## Generalized model
+### Generalized model
    When the best fit line is accurately/precisely fitted with training datasets then the model is considered to be Generalized. In this case, model is
    - Low Biased
    - Low variance.
@@ -90,10 +90,10 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 
   Today, I learnt the concept of Confusion matrix and accuracy performance parameter in Machine Learning Algorithm. It is one of the most used performance metrics in classification. 
 
-## Confusion Matrix:
+### Confusion Matrix:
    It a table that shows the number of True Positive i.e. (1,1), True Negative i.e. (0,0), False Positive i.e. (1,0) and False Negative i.e. (0,1).Our aim is to reduce False Positive and False Negative values and increase True Positive and True Negative Values. 
 
-## Accuracy:
+### Accuracy:
    It measures the overall correctness of the model. The main disadvantage of accuracy as performance parameter iit doesn't work well with imbalance datasets.
 
    - Formula to calculate accuracy is:
@@ -106,21 +106,21 @@ The most crucial hyperparameter in KNN is K, which determines how many neighbors
 # Day 6
   After learning about confusion matrix yesterday, Today I learnt the concept of precision, recall and F1 score performance parameter in binary classification.
 
-## Precision
+### Precision
    It is known as positive predictive value, measures the proportion of true positive prediction out of all positive predictions. It helps to understand the accuracy of positive predictions.
 
  - **For Example:** Let's take an example of logistic regression model which classifies the email as 'Spam' or 'Not Spam'. Now, if our model predicts a mail as 'Spam' but in real if it not actually 'Spam' then its a blunder, right? So, in this case, we use precision performance parameter to reduce False Positive.
    
 **Formula of Precision:** (True Positive)/(True Positive + False Positive)
 
-## Recall
+### Recall
    It measures the proportion of true positive predictions out of all actual positives. It helps to understand how well the model identifies positive instances.
 
 - **For Example:** If a person is suffering from cancer but our model predicts that s/he is not suffering from cancer then thats again a huge blunder. In this case, recall parameter is used to reduce False Negative.
 
 **Formula of Recall:** (True Positive)/(True Positive + False Negative)
 
-## F1 Score
+### F1 Score
    The F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall, especially when dealing with imbalanced datasets.
 
    - **Example:** The prediction of stock market whether it will crash tomorrow or not, we have to use F1 score i.e. both precision and recall as we have to reduce both false positive and false negative. 
