@@ -225,3 +225,9 @@ Today, I did **Voting Ensemble Classification**. In this, I implemented both the
 - Below is code snippet:
 
 ![alt text](VotingEnsembleClassifier.png)
+
+# Day 14
+Did Ensemble Learning on Voting Ensemble Regressor on dataset from sklearn i.e. Diabetes dataset and did it using both the techniques. I used Linear Regressor, Simple Vector Regresor and Decision Tree Regressor.
+
+- Below is code snippet:
+![alt text](VotingRegressor.png)
