@@ -231,3 +231,13 @@ Did Ensemble Learning on Voting Ensemble Regressor on dataset from sklearn i.e. 
 
 - Below is code snippet:
 ![alt text](VotingRegressor.png)
+
+# Day 15
+Today Out of Curiosity, I decided to learn the implementation of Linear Regression from Scratch. I did implement with the help of python code and I will be trying to do others as well in coming future.
+
+- Below is the code Snippet:
+
+![alt text](LR_From_Scratch.png)
+
+![alt text](LR_Testing.png)
+
