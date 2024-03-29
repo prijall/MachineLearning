@@ -243,5 +243,18 @@ Today Out of Curiosity, I decided to learn the implementation of Linear Regressi
 
 # Day 16
   During My learning in machine learning, I started bagging ensemble learning. It is similarly to that of voting ensemble. **Bagging** stands for **BootStrapping and Aggregration**. The key difference here is that bagging is used with decision trees, where it significantly raises the stability of models in improving accuracy and reducing variance, which eliminates the challenge of overfitting.The dataset into various subsets and those subset are feed to that models.  
-        I also studied the concept of **Random Forest** which isd  one of the powerful bagging concept.Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the mean or average prediction of the individual trees is returned.Random decision forests correct for decision trees' habit of overfitting to their training set. More on Random Forest soon!
+        I also studied the concept of **Random Forest** which is one of the powerful bagging concept.Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the mean or average prediction of the individual trees is returned.Random decision forests correct for decision trees' habit of overfitting to their training set. More on Random Forest soon!
 
+
+# Day 17
+ Random forest is very powerful ensemble learning techniques. **Random forest** works well very much because It helps to make **Bias-Variance tradeoff** balance. While designing our model, our main aim should be target to make **Low Biased and Low Variance** model which is impossible to get in almost all models. 
+
+ #### Why Random Forest Works so well?
+ It is because our decision tree's in random forest should be fully grown i.e. **Max_depth=none** due to which our model will be overfitted resulting in Low Bias and High Variance. But the main game changing idea here is when the data are trained to base models, they are drawn randomly and fed to model. Because of this, the impact of noisy points(Outliers) is distributed randomly to base models due to which Low variance is achieved. This is the main reason why RF is powerful.
+
+ #### Random Forest Vs Bagging
+- Random Forest have all the base models as Decision Tree whereas Bagging might have same as well as different base models.
+- In Random Forest, the feature(Column) sampling is done at node level. This means each time sampling is done at nodes due to which different features are present in different nodes. But in bagging, the feature sampling is done at tree level. This means first feature is selected and then tree is built.
+
+
+![alt text](Random-Forest-Algortihm.webp)
