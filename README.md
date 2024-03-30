@@ -258,3 +258,9 @@ Today Out of Curiosity, I decided to learn the implementation of Linear Regressi
 
 
 ![alt text](Random-Forest-Algortihm.webp)
+
+
+# Day 18
+OOB stands for **Out Of Box** Evaluation. This is concepts explains that while doing sampling in ensembling learning, there will be some sort of data that we not be fed to the model. This means the data is hidden from model, which according to the experiment performed is around 37%. So this set of data can be used for validation testing in machine learning.Mainly used in the bagging algorithms to measure the error or the performance of the models in every epoch for reducing the total error of the models in the end.
+
+![alt text](68787oob2.png)
