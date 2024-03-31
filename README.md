@@ -264,3 +264,9 @@ Today Out of Curiosity, I decided to learn the implementation of Linear Regressi
 OOB stands for **Out Of Box** Evaluation. This is concepts explains that while doing sampling in ensembling learning, there will be some sort of data that we not be fed to the model. This means the data is hidden from model, which according to the experiment performed is around 37%. So this set of data can be used for validation testing in machine learning.Mainly used in the bagging algorithms to measure the error or the performance of the models in every epoch for reducing the total error of the models in the end.
 
 ![alt text](68787oob2.png)
+
+# Day 19
+Feature importance in ML is very importance especially in tree based algorithm like decision tree, randomforest, etc. It helps us to identify the important feature in datasets and avoid not contributing feature which saves lots of computational power.
+
+- Below is code snippet:
+![alt text](FeatureImportance.png)
