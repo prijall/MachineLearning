@@ -270,3 +270,18 @@ Feature importance in ML is very importance especially in tree based algorithm l
 
 - Below is code snippet:
 ![alt text](FeatureImportance.png)
+
+# Day 20
+KMeans is a popular clustering algorithm used in machine learning and data mining. It is an unsupervised learning technique aimed at partitioning a dataset into a predetermined number of clusters. The algorithm works by iteratively assigning each data point to the nearest cluster centroid and then recalculating the centroid of each cluster based on the data points assigned to it. This process continues until convergence, typically defined by minimal changes in cluster assignments or centroid positions.
+
+### Steps of KMeans
+- **Initialization**: Randomly choose the initial cluster centroids.
+
+- **Assignment**: Assign each data point to the nearest cluster centroid based on a distance metric, commonly Euclidean distance.
+
+- **Update Centroids**: Recalculate the centroid of each cluster by taking the mean of all data points assigned to that cluster.
+
+- **Repeat**: Iterate steps 2 and 3 until convergence, which occurs when the cluster assignments and centroids no longer change significantly.
+
+![alt text](ClusteringInKMeans.png)
+![alt text](ElbowMethodCurve.png)
