@@ -285,3 +285,10 @@ KMeans is a popular clustering algorithm used in machine learning and data minin
 
 ![alt text](ClusteringInKMeans.png)
 ![alt text](ElbowMethodCurve.png)
+
+# Day 21
+Today, I did practical implementation of KMeans Clustering from scratch which helped me to strengthen my concept.
+
+- Below is code snippet:
+![alt text](KMeansFromScratch.png)
+![alt text](KMeans_Testing.png)
