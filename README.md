@@ -292,3 +292,13 @@ Today, I did practical implementation of KMeans Clustering from scratch which he
 - Below is code snippet:
 ![alt text](KMeansFromScratch.png)
 ![alt text](KMeans_Testing.png)
+
+# Day 22
+Gradient boosting algorithm is one of the most powerful algorithms in the field of machine learning. As we know that the errors in machine learning algorithms are broadly classified into two categories i.e. Bias Error and Variance Error. As gradient boosting is one of the boosting algorithms it is used to minimize bias error of the model.
+
+#### Appplication
+- Gradient Boosting Algorithm is generally used when we want to decrease the Bias error.
+- It can be used in regression as well as classification problems. In regression problems, the cost function is MSE whereas, in classification problems, the cost function is Log-Loss.
+
+![alt text](GradientBoostingConcept.png)
+![alt text](GradientBoostingGraph.png)
