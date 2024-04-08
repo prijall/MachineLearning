@@ -302,3 +302,8 @@ Gradient boosting algorithm is one of the most powerful algorithms in the field 
 
 ![alt text](GradientBoostingConcept.png)
 ![alt text](GradientBoostingGraph.png)
+
+# Day 23
+Today, I studied about Gradient Boosting Classifier. A loss function is a critical component that lets us quantify the difference between a model’s predictions and the actual values. In essence, it measures how a model is performing. 
+
+![alt text](GradientBoostingClassifier_Photo.png)
