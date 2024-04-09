@@ -307,3 +307,12 @@ Gradient boosting algorithm is one of the most powerful algorithms in the field 
 Today, I studied about Gradient Boosting Classifier. A loss function is a critical component that lets us quantify the difference between a model’s predictions and the actual values. In essence, it measures how a model is performing. 
 
 ![alt text](GradientBoostingClassifier_Photo.png)
+
+# Day 24
+Today, I revisited the concept of SVM and did its practical implementation. SVM generates optimal hyperplane in an iterative manner, which is used to minimize an error. The core idea of SVM is **to find a maximum marginal hyperplane(MMH) that best divides the dataset into classes.**
+
+- **SVM Kernels:**
+The kernel takes a low-dimensional input space and transforms it into a higher dimensional space. In other words, you can say that it converts nonseparable problem to separable problems by adding more dimension to it. It is most useful in non-linear separation problem. Kernel trick helps you to build a more accurate classifier.
+
+- Below is the code:
+![alt text](SVMClassifier.png)
