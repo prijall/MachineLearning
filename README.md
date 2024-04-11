@@ -316,3 +316,10 @@ The kernel takes a low-dimensional input space and transforms it into a higher d
 
 - Below is the code:
 ![alt text](SVMClassifier.png)
+
+# Day 25
+Today, I did the Xgboost regression mathematical intuition and did basic coding on regressor.
+
+- Below is the code snipppet:
+
+![alt text](XGBoostRregressor.png)
