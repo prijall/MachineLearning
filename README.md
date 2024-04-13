@@ -323,3 +323,28 @@ Today, I did the Xgboost regression mathematical intuition and did basic coding 
 - Below is the code snipppet:
 
 ![alt text](XGBoostRregressor.png)
+
+# Day 26
+**Re-Learning Concept: Logistics Regression**
+I did the practical implementaion of logistics regression. Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichtomous(binary).
+
+#### Since, it is a predictive model why not use linear regression instead?
+
+- First and foremost, the dependent variables(targets) are continous in linear regression whereas din logistic regression, they are binary values.
+
+- Linear Regression is prone to outliers i.e if there are sensitive outliers our linear model may predict values out of range. This means that the prediction can be more than 1 or less than 0 which in our case wont be accpetable.
+
+#### Sigmoid function
+
+A sigmoid function is any mathematical function whose graph has a characteristic S-shaped curve or sigmoid curve.
+ Logistics regression uses sigmoid function which classifies the datasets and predicts the values within the range of 0 and 1.
+
+ - Logistic Regression formula:
+     
+     p=1/(1 + e^(-z)) 
+         where z = mx+c
+
+- Below is the code snippet:
+
+![alt text](lr_scratch.png)
+![alt text](lr_test.png)
