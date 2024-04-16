@@ -348,3 +348,17 @@ A sigmoid function is any mathematical function whose graph has a characteristic
 
 ![alt text](lr_scratch.png)
 ![alt text](lr_test.png)
+
+# Day 27
+ **Re-Learning of Naive Bayes**
+ - Naive Bayes is a probabilistic classification algorithm(binary o multi-class) that is based on Bayes’ theorem.
+ - Naive Bayes can be used for a variety of applications, such as spam filtering, sentiment analysis, and recommendation systems.
+
+ #### Assumptions made by Naive Bayes?
+- Features are conditionally independent of each other.
+- Each of the features is equal in terms of weightage and importance.
+- The algorithm assumes that the features follow a normal distribution that's why standardization of dataset is easy.
+- The algorithm also assumes that there is no or almost no correlation among features.
+
+- Below is code snippet:
+![alt text](GaussianNB.png)
