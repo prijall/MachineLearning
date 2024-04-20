@@ -362,3 +362,14 @@ A sigmoid function is any mathematical function whose graph has a characteristic
 
 - Below is code snippet:
 ![alt text](GaussianNB.png)
+
+# Day 28
+**Re-Learning Bagging Ensemble:**
+Bagging (bootstrap aggregating) is an ensemble method that involves training multiple models independently on random subsets of the data, and aggregating their predictions through voting or averaging.In detail, each model is trained on a random subset of the data sampled with replacement, meaning that the individual data points can be chosen more than once. This random subset is known as a bootstrap sample. By training models on different bootstraps, bagging reduces the variance of the individual models. It also avoids overfitting by exposing the constituent models to different parts of the dataset.
+Bagging is particularly effective in reducing variance and overfitting, making the model more robust and accurate, especially in cases where the individual models are prone to high variability.
+
+- Without Bagging
+![alt text](WithoutBagging.png)
+
+- With Bagging
+![alt text](WithBagging.png)
