@@ -373,3 +373,11 @@ Bagging is particularly effective in reducing variance and overfitting, making t
 
 - With Bagging
 ![alt text](WithBagging.png)
+
+
+# Day 29
+Today, I have Started End-to-End Ml project on **California Housing Prediction.** I created a file directory for the data extration and saving it into local directory and converting it into dataframe using pandas library. Similary, I crated python function for splitting datas and created train and test set of the dataset for the further project. Did visualization of the dataset to gain the insight of the data which will help to understand the dataset better.
+
+- Project Snippet:
+![alt text](ProjectCode-Day1.png)
+![alt text](ProjectCodePic-Day1.png)
