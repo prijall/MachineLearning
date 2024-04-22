@@ -381,3 +381,10 @@ Today, I have Started End-to-End Ml project on **California Housing Prediction.*
 - Project Snippet:
 ![alt text](ProjectCode-Day1.png)
 ![alt text](ProjectCodePic-Day1.png)
+
+# Day 30
+I did Data cleaning and data preprocessing for the better performance of the model. First, i replaced Null value with  median of the same attribute. Then handling categorical data was very important as ML models works only on numerical data.
+
+- **Ps: This diagram is not of Data cleaning but of dataset visualization.**
+![alt text](<CaliforniaHousing_Prices/Images/California Housing/Histogram Plots.png>)
+
