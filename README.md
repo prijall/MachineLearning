@@ -388,3 +388,16 @@ I did Data cleaning and data preprocessing for the better performance of the mod
 - **Ps: This diagram is not of Data cleaning but of dataset visualization.**
 ![alt text](<CaliforniaHousing_Prices/Images/California Housing/Histogram Plots.png>)
 
+# Day 31
+Today, I continued with the project and did two major things i,e **design and Used built-In transformers** and **Feature Scaling**
+
+- Transformers:
+ It is used to transform the values of the attributes. In our project, there are numerical as well as categorical values. Similarly, in numerical value, there is missing values and all. During feature engineering, we need to handle all of these effectively due to which we need transformer. I built one custom transformer to add extra attributes and used scikit-learn built-in Column Transformer.
+
+ ![alt text](Transformers.png)
+
+ - Feature Scaling:
+ As we know in numerical values of our dataset, there are various kinds of data which creates imbalance for ML algorithms to predict resulting in bad accuracy. So we did Standardization and Normalization of our dataset before training it into ml model. 
+
+ ![alt text](FeatureScaling.png)
+
