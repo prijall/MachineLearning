@@ -401,3 +401,11 @@ Today, I continued with the project and did two major things i,e **design and Us
 
  ![alt text](FeatureScaling.png)
 
+# Day 32
+After completion of Feature Engineering, I finally trained Machine learning model for predictions. Today, I created Linear Regression object, train data and predict the values but didn't get quite well scores. So, I also trained my datasets with decision tree algorithm which happens to be better than linear regression.
+
+- Linear Regression Model:
+![alt text](<CaliforniaHousing_Prices/Images/California Housing/LinearReg_Training.png>)
+
+- Decision Tree Model:
+![alt text](<CaliforniaHousing_Prices/Images/California Housing/DecisionTree_Train.png>)
