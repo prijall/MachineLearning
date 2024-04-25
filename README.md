@@ -409,3 +409,12 @@ After completion of Feature Engineering, I finally trained Machine learning mode
 
 - Decision Tree Model:
 ![alt text](<CaliforniaHousing_Prices/Images/California Housing/DecisionTree_Train.png>)
+
+# Day 33
+Today, I did Model Tuning and did Cross_Validation on both linear Regression and Decision Tree. The overall result in cross validation of both the models built previously wasn't performing so good so far. Therefore, I used Ensemble learning technique called Random Forest i.e Bagging which happenend to perform better than those prev models.
+
+- Cross Validation Scores:
+![alt text](<CaliforniaHousing_Prices/Images/California Housing/Cross_val_score.png>)
+
+- Model Tuning:
+![alt text](<CaliforniaHousing_Prices/Images/California Housing/Model_tuning.png>)
