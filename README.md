@@ -418,3 +418,9 @@ Today, I did Model Tuning and did Cross_Validation on both linear Regression and
 
 - Model Tuning:
 ![alt text](<CaliforniaHousing_Prices/Images/California Housing/Model_tuning.png>)
+
+# Day 34
+Finally, Today, I completed my project on **California Housing Price Prediction** and got a chance to learn many more things during project. I will be doing more projects in order to test my knowledge.
+
+- Below is code snippet:
+![alt text](<CaliforniaHousing_Prices/Images/California Housing/Evaluation_Model.png>)
