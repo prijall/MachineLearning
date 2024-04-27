@@ -424,3 +424,8 @@ Finally, Today, I completed my project on **California Housing Price Prediction*
 
 - Below is code snippet:
 ![alt text](<CaliforniaHousing_Prices/Images/California Housing/Evaluation_Model.png>)
+
+# Day 35
+Today, I did revision on the intuition of KMeansClustering and built model from scratch.
+- Below is code snippet:
+![alt text](Photo/KMeansImplementation.png)
