@@ -429,3 +429,9 @@ Finally, Today, I completed my project on **California Housing Price Prediction*
 Today, I did revision on the intuition of KMeansClustering and built model from scratch.
 - Below is code snippet:
 ![alt text](Photo/KMeansImplementation.png)
+
+# Day 36
+Continued writing/learning KMeans Code from scratch. Today, I did testing of the code written from scratch and tried debugging them. Similary, I also read about teachniques esp. **Elbow Method** which is used to determine the number of clusters in the program which is one of the most important and daunting task.
+
+- Below is the elbow method graph plotted with the help of self created data:
+![alt text](Photo/KMeansTesting(ElbowMethod).png)
