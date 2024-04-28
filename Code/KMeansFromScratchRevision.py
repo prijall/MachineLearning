@@ -1,8 +1,6 @@
+#@ Model building
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from numpy.random import uniform
-from sklearn.datasets import make_blobs
 import seaborn as sns
 import random
 
@@ -28,7 +26,8 @@ class KMeans:
 
             #Choosing remaining points based on their distances
             new_centriod_idx, = np.random.choice(range(len(X_train)), size=1, p=dists)
-
+            
+            self.centriods.append(X_train[new_centriod_idx])
 
         iteration=0
         prev_centriods=None
@@ -54,7 +53,7 @@ class KMeans:
         centriods_idxs=[]
 
         for x in X:
-            dists=euclidean(x, self.Centriods)
+            dists=euclidean(x, self.centriods)
             centriods_idx=np.argmin(dists)
             centriods.append(self.centriods[centriods_idx])
             centriods_idxs.append(centriods_idx)
