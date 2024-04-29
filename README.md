@@ -435,3 +435,17 @@ Continued writing/learning KMeans Code from scratch. Today, I did testing of the
 
 - Below is the elbow method graph plotted with the help of self created data:
 ![alt text](Photo/KMeansTesting(ElbowMethod).png)
+
+# Day 37
+Unlocked the concept of one of the finest method of clustering in Unsupervised LEarning. **DBSCAN** stands for **Density Based Spatial Clustering of Applications with Noise.** This Method is widely used for clustering and works only on training dataset sadly not predicting but it makes proper clustering. The main problem with other clustering algorithm is that they are unable to cluster in arbitrary shapes. 
+
+- Parameters in DBSCAN:
+1) **Epsilon:** It is the radius of the circle to be created around each data point to check the density.
+2) **minPoints:** It is the minimum number of data points required inside that circle for that data point.
+
+- Types of points in DBSCAN:
+1) **Core points:** If the point has more or equal points than monPoints inside epsilon then that points is considered as Core points.
+2) **Border points:** If the point has less than minPoints but greater than 1 points then that points is considered as Border points.
+3) **Noise ponts:** If the point has no points inside epsilon radius then it is considerd as noise points.
+
+![alt text](db6-e1584577503359.webp)
