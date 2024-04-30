@@ -449,3 +449,9 @@ Unlocked the concept of one of the finest method of clustering in Unsupervised L
 3) **Noise ponts:** If the point has no points inside epsilon radius then it is considerd as noise points.
 
 ![alt text](db6-e1584577503359.webp)
+
+# Day 38
+Today I did practical implementation for DBSCAM using sklearn and saw how it clusters data based on density in concentric circle.
+
+- Below is code snippet:
+![alt text](Photo/DBSCAM.png)
