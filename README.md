@@ -455,3 +455,11 @@ Today I did practical implementation for DBSCAM using sklearn and saw how it clu
 
 - Below is code snippet:
 ![alt text](Photo/DBSCAM.png)
+
+# Day 39
+ Started project on **Predicting Popularity of Online News Articles** using Random Forest. During this project, I am going to build the model that predicts the number of shares of articles.
+
+ - Collected data for project and the dataset is of Mashable.
+ - Analyze the dataset and got brief info and description of the dataset and did little bit of data cleaning.
+
+ ![alt text](Photo/Project2.png)
