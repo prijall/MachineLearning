@@ -468,3 +468,8 @@ Today I did practical implementation for DBSCAM using sklearn and saw how it clu
 Continued doing the project and today I did data cleaning and EDA to understand the dataset more properly and did some manipulated with the dataset for the good accuracy and model prediction.
 
 ![alt text](Photo/Project_Data_Visual.png)
+
+# Day 41
+Continued with the project itself and did categorical value handling, feature scaling, model building and testing and trying out various values for parameters.
+
+![alt text](Photo/Project2_model.png)
