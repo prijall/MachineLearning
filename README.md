@@ -473,3 +473,8 @@ Continued doing the project and today I did data cleaning and EDA to understand 
 Continued with the project itself and did categorical value handling, feature scaling, model building and testing and trying out various values for parameters.
 
 ![alt text](Photo/Project2_model.png)
+
+# Day 42
+The project is completed finally. 
+
+![alt text](Photo/Project2_final.png)
